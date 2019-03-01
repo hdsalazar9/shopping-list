@@ -1,0 +1,85 @@
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
+body{
+  background-color: #efefc8;
+}
+
+.container{
+  width: 90%;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+}
+.mainForm{
+  border: 2px solid black;
+  border-radius: 6px;
+  width: auto;
+  padding: 10px;
+  background-color: #fbfbf0;
+}
+
+.separator{
+  border: 3px solid black;
+  border-radius: 6px;
+  margin: 20px 0px;
+}
+
+.formLabel, .TextInput{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.myButton{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 6px;
+}
+
+.checked{
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgb(128,128,128);
+}
+
+.buttonsDiv{
+  margin-top: 10px;
+}
+
+.ShoppingList{
+  padding-inline-start: 0;
+}
+
+.ShoppingList > li{
+  list-style-type: none;
+  list-style: none;
+  padding-left: 0;
+  margin: 10px 0px;
+}
+
+.listItem{
+  border: 2px solid black;
+  border-radius: 6px;
+  width: auto;
+  padding: 10px;
+  background-color: #e3e3a1;
+  font-size: 18px;
+}
+
+.checkButton{
+  color: white;
+  margin-left: 8px;
+  background-color: #556b2f;
+}
+
+.deleteButton{
+  color: white;
+  margin-left: 8px;
+  background-color: #621932;
+}
